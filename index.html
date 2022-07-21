@@ -1,0 +1,1388 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Funiture design</title>
+        <lik rel="stylesheet" href="w3.css"/>
+        <style type="text/css" media="all">
+            
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+            body{
+                background: #18434;
+                margin: 0;
+            }
+            
+            .Funiture{
+                background: white;
+            }
+            
+            .flex1{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 3px;
+                background: #FBB55A;
+                padding: 6px;
+            }
+            
+            p{
+                margin-top: 10px;
+                font-weight: bold;
+                margin-left: 5px;
+            }
+            
+            .logo{
+                display: flex;
+                font-size: 18px;
+                color: white;
+                margin-left: 10px;
+            }
+            
+            .flex1 img{
+                width: 30px;
+                border-radius: 50%;
+                border: 1px black solid;
+                margin: 5px 5px;
+            }
+            
+            .main{
+                display: flex;
+                justify-content: space-between;
+                background: #FFFFFF;
+                font-weight: bold;
+                padding: 2% 2%;
+                align-items: center;
+            }
+            
+            .menu{
+                padding: 1.5% 0;
+            }
+            
+            .menu a{
+                text-decoration: none;
+                font-size: 25px;
+                margin-left: 4px;
+                color: #000000;
+                padding: 5px 10px;
+                border-radius: 5px;
+            }
+           
+            .main img{
+                width: 5%;
+                border-radius: 20%;
+                border: 1px solid black;
+            }
+            
+            .main-page{
+                background: url('7.jpg');
+               height: 80vh;
+               margin-top: 10px;
+               border: solid 1px #FBB55A;
+               background-size: cover;
+               background-repeat: no-repeat;
+               width: 100%;
+            }
+            
+            .page{
+                text-align: right;
+                font-size: 3.5rem;
+                margin-top: 15%;
+                padding-right: 8%;
+            }
+            
+            .page p{
+                color: white;
+                mrgin-right: 12%;
+            }
+            
+            .page p:nth-child(1){
+                
+            }
+            
+            .page p:nth-child(2){
+                font-size: ;
+            }
+            
+            .page p:nth-child(3){
+                font-size: 1.5rem;
+            }
+            
+            .page p:nth-child(4){
+                font-size: 1.5rem;
+                color: orange;
+            }
+            
+            .btn #right, #left{
+                outline: none;
+                border: none;
+                font-size: 1rem;
+                margin-top: px;
+                padding: 10px 10px;
+                background: orange;
+                color: #000000;
+            }
+            
+           .btn #right{
+                margin-right: 5px;
+                background: #182434;
+                border: 2px solid white;
+                color: #ffffff;
+            }
+            
+            .div3{
+                padding: 5% 15%;
+                display: noe;
+            }
+            
+            .div3 p{
+                font-size: 20px;
+                text-align: center;
+                color: orange;
+            }
+            
+            .animation{
+                transform: scale(0);
+            }
+            
+            .animation.rights{
+                animation: rights 1.5s;
+                transform: scale(1);
+            }
+            
+            @keyframes rights{
+                0%{
+                    transform: scale(0);
+                }
+                100%{
+                    transform: scale(1);
+                }
+            }
+            
+            h1{
+                font-size: 15px;
+                text-align: center;
+                font-weight: bold;
+            }
+            
+            .image1 img{
+                width: 30%;
+                margin-top: 10px;
+                background: white;
+                border-radius: 50%;
+            }
+            
+            .image1{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 15px;
+            }
+            
+            
+            #setting{
+                background: #FBB55A;
+                color: white;
+                text-align: center;
+                margin-top: 10px;
+                height: 32vh;
+            }
+            
+            #setting p{
+                color: black;
+            }
+            
+            h3{
+                font-size: 13px;
+                font-weight: bold;
+            }
+            
+            #setting button{
+                outline: none;
+                border: none;
+                margin-top: 10px;
+                padding: 5px 5px;
+                font-weight: bold;
+                background: #FBB55A;
+            }
+                        
+            #experience{
+                background: #182434;
+                color: white;
+                text-align: center;
+                margin-top: 10px;
+                height: 35vh;
+            }
+            
+            #experience p{
+                color: white;
+            }
+            
+            h3{
+                font-size: 13px;
+                font-weight: bold;
+            }
+            
+           #experience button{
+                outline: none;
+                border: none;
+                margin-top: 10px;
+                padding: 5px 5px;
+                font-weight: bold;
+                background: #182434;
+                color: white;
+            }
+            
+                        
+            #like{
+                background: #FBB55A;
+                color: white;
+                text-align: center;
+                margin-top: 10px;
+                height: 32vh;
+                width: 77%;
+            }
+            
+            #like p{
+                color: black;
+            }
+            
+            h3{
+                font-size: 13px;
+                font-weight: bold;
+            }
+            
+            #like button{
+                outline: none;
+                border: none;
+                margin-top: 10px;
+                padding: 5px 5px;
+                font-weight: bold;
+                background: #FBB55A;
+            }
+            
+            .third{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-bottom: 5%;
+                
+            }
+            
+            .third img{
+                width: 20%;
+                margin-right: 2%;
+            }
+            
+            .text4{
+                width:30%;
+            }
+            
+            .text4 p{
+                font-weight: 500;
+                font-size: 20px;
+            }
+            
+            .forth img{
+                width: 30%;
+                margin-bottom: 3%;
+            }
+            
+            .forths{
+                display: flex;
+                justify-content: center;
+                background: url('7.jpg');
+                background-repeat: no-repeat;
+                background-position: right;
+                padding: 4% 10%;
+                color: #fff;
+            }
+            
+            .forths div{
+                text-align: center;
+            }
+            
+            .forths > div > p:nth-child(2){
+                color: orange;
+                margin-bottom: -10px;
+            }
+            
+            .forths img{
+                width: 25%;
+            }
+            
+            .next{
+                text-align: center;
+                padding: 5% 7%;
+            }
+            
+            .next > p:nth-child(1){
+                font-size: 20px;
+                color: orange;
+            }
+            
+            .next > p:nth-child(2){
+                font-size: 15px;
+            }
+            
+            .image2{
+                display: flex;
+                justify-content: center;
+                margin-top: 20px;
+                padding: 0 10%;
+            }
+            
+            .image2 img{
+                width: 60%;
+            }
+            
+            .image2 p{
+                font-size: 18px;
+                font-weight: 400;
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+            
+            h5{
+                font-size: 20px;
+                font-weight: bold;
+                color: orange;
+            }
+            
+            
+            .form1{
+                background-image: url('7.jpg');
+               margin-top: 20px;
+               background-size: coer;
+               background-repeat: no-repeat;
+               width: 100%;
+               display: flex;
+               justify-content:center;
+               padding: 4% 0 0 0;
+            }
+            
+            input{
+                padding: 2% 1%;
+                font-size: 18px;
+                margin: 10px;
+            }
+            
+            input::placeholder{
+                color: black;
+                font-size: 15px;
+                font-weight: 300;
+            }
+            
+            .flex4{
+                display: flex;
+                flex-direction: column;
+                width: 50%;
+                text-align: center;
+            }
+            
+            .flex4 > p:nth-child(1){
+                font-size: 20px;
+                color: orange;
+                text-align: center;
+            }
+            
+            .flex4 > p:nth-child(2){
+                font-size: 16px;
+                color: #fff;
+                margin-bottom: 5%;
+                text-align: center;
+            }
+            
+            .flex4 textarea{
+                width: 80%;
+                align-self: center;
+                min-height: 12vh;
+            }
+            
+            .form1 button{
+                background: orange;
+                color: #fff;
+                outline: none;
+                border: none;
+                padding: 2% 2%;
+                margin-top: 2%;
+                border-radius: 10px 0 10px 0;
+                margin-bottom: 20px;
+            }
+            
+            .form1 img{
+                width: 70%;
+                margin-top: 60px;
+            }
+            
+            .section2 {
+                padding: 2% 0;
+            }
+            
+            .section2 > p:nth-child(1){
+                font-size: 20px;
+                color: orange;
+                text-align: center;
+            }
+            
+            .section2 > p:nth-child(2){
+                font-size: 16px;
+                text-align: center;
+            }
+            
+            .plain a{
+                text-decoration: none;
+                font-weight: bold;
+                color: orange;
+                font-size: 13.5px;
+                border: 1px solid orange;
+                padding: 5px 5px;
+                margin: 0 1%;
+            }
+            
+            .plain{
+                margin: 2% auto;
+                display: flex;
+                justify-content: center;
+            }
+            
+            .plain a:nth-child(1){
+                background: orange;
+                color: #ffffff;
+            }
+            
+            .flex7 img{
+                width: 15%;
+                border: 1px solid black;
+                margin: 0 .5%;
+            }
+            
+            .flex7{
+                display: flex;
+                justify-content: center;
+                margin-top: 17px;
+            }
+            
+            .section3 {
+                padding: 2% 0;
+            }
+            
+            .section3 > p:nth-child(1){
+                font-size: 20px;
+                color: orange;
+                text-align: center;
+            }
+            
+            .section3 > p:nth-child(2){
+                font-size: 16px;
+                text-align: center;
+            }
+            
+            .flex9 img{
+                width: 70%;
+                border: 1px solid black;
+            }
+            
+            .flex9{
+                display: flex;
+                justify-content: space-between;
+                padding: 0 12%;
+                font-size: 18px;
+            }
+            
+            .flex9 > div{
+                margin: 2% 3%;
+                text-align: center;
+            }
+            
+            .flex9 > div > p:nth-child(3){
+                font-weight: 400;
+            }
+            
+            .section4 {
+                padding: 2% 0;
+            }
+            
+            .section4 > p:nth-child(1){
+                font-size: 20px;
+                color: orange;
+                text-align: center;
+            }
+            
+            .section4 > p:nth-child(2){
+                font-size: 16px;
+                text-align: center;
+                color: #ffffff;
+            }
+            
+            .flex10 img{
+                width: 10%;
+                margin: 0 3%;
+            }
+            
+            .flex10{
+                display: flex;
+                justify-content: center;
+                margin-top: 17px;
+            }
+            
+            .section4{
+                background-image: url('7.jpg');
+               boder: solid 1px #FBB55A;
+               background-size: coer;
+               background-repeat: no-repeat;
+               width: 100%;
+            }
+            
+            .image6 img{
+                width: 4.5%;
+                margin-right: 4%;
+                margin-top: 3%;
+            }
+            
+            .image4 img{
+                width: 10%;
+                height: 5vh;
+            }
+            
+            .image4 div{
+                display: flex;
+                align-items: center;
+            }
+            
+            .image4 div p{
+                margin: auto 2%;
+            }
+            
+            .image4 > p{
+                margin-bottom: 2%;
+            }
+            
+            .section5{
+                display: flex;
+                justify-content: center;
+                background: #182434;
+                padding: 2% 5%;
+                font-size: 17px;
+            }
+            
+            .section5 > div{
+                width: 50%;
+            }
+            
+            .section5 h4{
+                font-size: 20px;
+                font-weight: bold;
+                color: orange;
+            }
+            
+           .section5 p{
+               font-weight: 300;
+               color: white;
+           }
+           
+           .image5 button{
+               outline: none;
+               border: none;
+               background: orange;
+               color: #ffffff;
+               padding: 2% 5%;
+               border-radius: 5px;
+           }
+           
+           .footer{
+               background: orange;
+               color: #ffffff;
+               padding: 1% 5%;
+               display: flex;
+               justify-content: space-between;
+               text-align: center;
+           }
+           .anchor a{
+               font-size: 15;
+               text-decoration: none;
+               color: #fff;
+               margin: 0 5px;
+           }
+           
+           .anchor{
+               color: white; 
+               font-weight: bold;
+           }
+           
+           @media(max-width:980px){
+               
+            .flex1 p{
+                font-size: 30px;
+            }
+            
+            .logo{
+                width: 70%;
+            }
+            
+            .logo img{
+                width: 7%;
+                height: 60px;
+            }
+            
+            .menu a{
+                font-size: 30px;
+            }
+           
+            .main img{
+                width: 80px;
+            }
+            
+            .main-page{
+                background-position: center;
+            }
+            
+            .page{
+                font-size: 5rem;
+                margin-top: 70%;
+            }
+            
+            .page p:nth-child(3), .page p:nth-child(4){
+                font-size: 2.5rem;
+            }
+            
+            .btn #right, .btn #left{
+                font-size: 25px;
+            }
+            
+            
+            .div3 p{
+                font-size: 35px;
+            }
+            
+            h1{
+                font-size: 26px;
+            }
+            
+            .image1 img{
+                width: 30%;
+                margin-top: 10px;
+                background: white;
+                border-radius: 50%;
+            }
+            
+            .image1{
+                flex-direction: column;
+            }
+            
+            .image1 > div{
+                padding-top: 15%;
+                padding-left: 5%;
+                padding-right: 5%;
+            }
+            
+            .image1 h3{
+                font-size: 30px;
+            }
+            
+            .image1 button{
+                font-size: 25px;
+            }
+            
+            #like{
+                width: 100%;
+            }
+            
+            .third{
+                flex-direction: column;
+            }
+            
+            .third img{
+                width: 60%;
+                margin-bottom: 3%;
+            }
+            
+            .third h4{
+                font-size: 35px;
+            }
+            
+            .text4{
+                width: 70%;
+            }
+            
+            .text4 p{
+                font-size: 30px;
+            }
+            
+            .forths img{
+                width: 30%;
+                margin-bottom: 10px;
+            }
+            
+            .forths > div{
+                margin-bottom: 100px;
+            }
+            
+            .forths{
+                flex-direction: column;
+                margin-left: 2%;
+                margin-right: 2%;
+                background-position: right;
+                font-size: 30px;
+            }
+            
+            .forths > div > p:nth-child(2){
+                font-size: 45px;
+            }
+            
+            .image2{
+               flex-direction: column;
+            }
+            
+            .image2 > div{
+                margin-bottom: 10%;
+            }
+            
+            .image2 img{
+                width: 70%;
+                margin-bottom: 3%;
+            }
+            
+            .image2 p{
+                font-size: 20px;
+                padding: 0% 10%;
+            }
+            
+            h5{
+                font-size: 25px;
+            }
+            
+            
+            .form1{
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .flex4{
+                width: 100%;
+            }
+            
+            .flex4 > p:nth-child(1){
+                font-size: 45px;
+            }
+            
+            .flex4 > p:nth-child(2){
+                font-size: 40px;
+            }
+            
+            input{
+                width: 70%;
+                height: 5vh;
+                font-size: 35px;
+                padding: 10px 10px;
+            }
+            
+            input::placeholder{
+                font-size: 30px;
+            }
+            
+            .flex4 textarea{
+                width: 70%;
+                height: 30vh;
+                font-size: 30px;
+            }
+            
+            .form1 button{
+                font-size: 30px;
+                margin-bottom: 5%;
+            }
+            
+            .form1 img{
+                width: 150%;
+                display: none;
+            }
+            
+            .plain a{
+                font-size: 30px;
+            }
+            
+            .flex7 img{
+                width: 50%;
+                border: 1px solid black;
+                margin-bottom: 10px;
+                margin-top: 10px;
+            }
+            
+            .flex7{
+                flex-direction: column;
+                margin-top: 0;
+                align-items: center;
+            }
+            
+            .flex9 img{
+                width: 70%;
+                border: 1px solid black;
+            }
+            
+            .section3{
+                padding-top: 10%;
+                padding-bottom: 10%;
+            }
+            
+            .flex9{
+                flex-direction: column;
+                font-size: 20px;
+            }
+            
+            .flex9 > div{
+                margin-bottom: 7%;
+            }
+            
+            .flex9 > div > p:nth-child(3){
+                padding: 0 10%;
+            }
+            
+            .flex10 img{
+                width: 20%;
+                background: #182434;
+                margin-bottom: 50px;
+                border-radius: 50%;
+                height: 10vh;
+            }
+            
+            .flex10{
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .image6 img{
+                width: 6%;
+                margin-left: 5px;
+            }
+            
+            .image4 img{
+                width: 20%;
+            }
+            
+            .section5{
+                flex-direction: column;
+                padding-top: 10%;
+            }
+            
+            .section5 > div{
+                margin-bottom: 10%;
+            }
+            
+            .section5 h4{
+                font-size: 35px;
+            }
+            
+           .section5 p{
+               font-size: 30px;
+           }
+           
+           .image5 button{
+               font-size: 25px;
+               color: #182434;
+               margin-top: 3%;
+           }
+           
+           .footer{
+               font-size: 30px;
+               flex-direction: column;
+               color: #182434;
+           }
+           
+           .anchor a{
+               font-size: 25px;
+           }
+           }
+           
+           /*nnnnnnñ*/
+           
+           @media(max-width:360px){
+               
+            .flex1 p{
+                font-size: 14px;
+            }
+            
+            .logo{
+                width: 50%;
+            }
+            
+            .logo img{
+                width: 10%;
+                height: 30px;
+            }
+            
+            .main{
+                height: 10vh;
+                padding-top: 15px;
+            }
+            
+            .menu a{
+                font-size: 12px;
+                padding: 2px 3px;
+                margin: 0;
+            }
+           
+            .main img{
+                width: 50px;
+            }
+            
+            .page{
+                font-size: 2rem;
+            }
+            
+            .page p:nth-child(3), .page p:nth-child(4){
+                font-size: 1.2rem;
+            }
+            
+            .btn #right, .btn #left{
+                font-size: 13px;
+            }
+            
+            .btn #right{
+                border: #fff 1px solid;
+            }
+            
+            .div3 p{
+                font-size: 15px;
+            }
+            
+            h1{
+                font-size: 20px;
+            }
+            
+            .image1 img{
+                width: 20%;
+                margin-bottom: 3%;
+            }
+            
+            .image1 > div{
+                padding-top: 7%;
+                
+            }
+            
+            .image1 h3{
+                font-size: 16px;
+            }
+            
+            .image1 button{
+                font-size: 12px;
+            }
+            
+            #like{
+                height: 34vh;
+            }
+            
+            .third img{
+                width: 70%;
+            }
+            
+            .third h4{
+                font-size: 12px;
+            }
+            
+            .third h2{
+                font-size: 15px;
+            }
+            
+            .text4 p{
+                font-size: 13px;
+            }
+            
+            .forths img{
+                width: 20%;
+            }
+            
+            .forths > div{
+                margin-bottom: 50px;
+            }
+            
+            .forths{
+                font-size: 15px;
+                padding-top: 50px;
+            }
+            
+            .forths > div > p:nth-child(2){
+                font-size: 20px;
+            }
+            
+            .next > p:nth-child(1){
+                font-size: 13px;
+            }
+            
+            .next > p:nth-child(2){
+                font-size: 18px;
+            }
+            
+            .image2 p{
+                font-size: 14px;
+                padding: 0 5%;
+                margin-top: 0;
+            }
+            
+            h5{
+                font-size: 18px;
+            }
+            
+            .flex4 > p:nth-child(1){
+                font-size: 17px;
+            }
+            
+            .flex4 > p:nth-child(2){
+                font-size: 15px;
+            }
+            
+            input{
+                font-size: 15px;
+            }
+            
+            input::placeholder{
+                font-size: 15px;
+            }
+            
+            .flex4 textarea{
+                height: 30vh;
+                font-size: 15px;
+            }
+            
+            .form1 button{
+                font-size: 15px;
+                margin-bottom: 5%;
+            }
+            
+            .plain a{
+                font-size: 15px;
+            }
+            
+            .flex7 img{
+                width: 50%;
+            }
+            
+            .flex9 img{
+                width: 100%;
+                border: 1px solid black;
+            }
+            
+            .flex9{
+                font-size: 15px;
+            }
+            
+            .flex9 > div{
+                margin-bottom: 7%;
+            }
+            
+            .flex9 > div > p:nth-child(3){
+                padding: 0 10%;
+            }
+            
+            .flex10 img{
+                width: 15%;
+                margin-bottom: 20px;
+                height: 8vh;
+            }
+            
+            .section5 h4{
+                font-size: 15px;
+            }
+            
+           .section5 p{
+               font-size: 14px;
+           }
+           
+           .image5 button{
+               font-size: 15px;
+           }
+           
+           .footer{
+               font-size: 15px;
+           }
+           
+           .anchor a{
+               font-size: 15px;
+               font-weight: normal;
+           }
+           }
+        </style>
+    </head>
+    <body>
+        <section class="Funiture w3-container w3-card-4 w3-animate-zoom">
+            <div class="flex1">
+                <div class="logo">
+                    <img src="3.png" alt="" />
+                    <p>NO1 ABAS FUNITURES,OKWE</p>
+                </div>
+                <div class="logo1">
+                    <img src="4.png" alt="" />
+                    <img src="5.png" alt="" />
+                    <img src="6.png" alt="" />
+                </div>
+            </div>
+            
+            <div class="main">
+                <img src="logo.jpeg" alt="" />
+                <div class="menu">
+                    <a href="index.html" class="">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Shop</a>
+                    <a href="#">Projects</a>
+                    <a href="#">Contacts</a>
+                </div>
+            </div>
+            
+            <div class="main-page">
+               <div class="page">
+                <p>We Are <span style="color:orange;">Always</span></p>
+                <p>Ready To Service</p>
+                <p>For Immediate Service Dial</p>
+                <p>+2347080831889</p>
+                <div class="btn">
+                    <a href="#"><button id="right" class="testing">Request Quote</button></a>
+                    <a href=""><button id="left">View More</button></a>
+                    <br />
+                    <br />
+                </div>
+              </div>  
+            </div>
+            
+            <div class="div3">
+                <p class="animation">--- WORKING WITH EXECELENCE ---</p>
+                <h1 class="animation">We Build For Your Comfort</h1>
+                
+                <div class="image1">
+                    <div id="setting" class="animation">
+                        <img src="setting.png" alt="" />
+                        <h3>Services Provided</h3>
+                        <p>We are a company that provides wide range of maintenance and other services</p>
+                        
+                        <a href="#"><button>More info +</button></a>
+                    </div>
+                    <div id="experience" class="animation">
+                        <img src="image.png" alt="" />
+                        <h3>5+ years Experience</h3>
+                        <p>We are a company with wide range of experience and experties in our business and services</p>
+                        
+                        <a href="#"><button>More info +</button></a>
+                    </div>
+                    <div id="like" class="animation">
+                        <img src="like.png" alt="" />
+                        <h3>Grateful Customers</h3>
+                        <p>We happy to let you know how much our customers love and value our all time services to them.</p>
+                        
+                        <a href="#"><button>More info +</button></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="third">
+                <img src="k.png" alt="" class="animation"/>
+                <div class="text4">
+                    <h4 style="color:orange;" class="animation">WHO WE ARE----</h4>
+                    <h2 class="animation">WE HAVE 5YEARS EXPERIENCE</h2>
+                    <p class="animation">Started Handyman In 2018<span onclick="this.parentElement.style.display='none'" class="w3-closebtn w3-margin-right w3-medium">-</span></p>
+                    <p class="w3-light-grey w3-small animation">We are a company with wide range of experience and experties in our business</p>
+                    <p class="w3-light-grey w3-small animation">Opened for training</p>
+                    <p class="w3-light-grey w3-small animation">Started Handyman In 2018</p>
+                </div>
+            </div>
+            
+            <!--<div class="forth w3-margin-top">
+                <div>
+                    <img src="image.png" alt="" />
+                    <p>200</p>
+                    <p class="w3-small">Happy Customers</p>
+                </div>
+                <div>
+                    <img src="histogram.png"/>
+                    <p>300</p>
+                    <p class="w3-small">Project Completed</p>
+                </div>
+                <div>
+                    <img src="expert.png" alt="" />
+                    <p>450</p>
+                    <p class="w3-small">Epert Workers</p>
+                </div>
+                <div>
+                    <img src="award.png" alt="" />
+                    <p>50</p>
+                    <p class="w3-small">Award Winners</p>
+                </div>
+            </div>-->
+            
+            <div class="forths anmation">
+                <div>
+                    <img src="histograms.png" alt="" class="animation"/>
+                    <p class="animation">200</p>
+                    <p class="animation">Happy Customers</p>
+                </div>
+                <div>
+                    <img src="images.png" alt="" class="animation" />
+                    <p class="animation">300</p>
+                    <p class="animation">Happy Customers</p>
+                </div>
+                <div>
+                    <img src="experts.png" alt="" class="animation" />
+                    <p class="animation">450</p>
+                    <p class="animation">Happy Customers</p>
+                </div>
+                <div>
+                    <img src="rewards.png" alt="" class="animation"/>
+                    <p class="animation">50</p>
+                    <p class="animation">Happy Customers</p>
+                </div>
+            </div>
+            
+            <div class="next w3-margin-top">
+                <p class="animation">---HOW IT WORKS---</p>
+                <p class="animation">Follow 4 easy steps</p>
+            <div class="image2">    
+                <div class="image3">
+                    <img src="a.png" alt="" class="animation" />
+                    <h5 class="animation">Schedule</h5>
+                    <p class="animation">We are a company with wide range of experience and experties in our business</p>
+                </div>
+                <div>
+                    <img src="b.png" alt="" class="animation"/>
+                    <h5 class="animation">Advice</h5>
+                    <p class="animation">We are a company with wide range of experience and experties in our business</p>
+                </div>
+                <div>
+                    <img src="c.png" alt="" class="animation" />
+                    <h5 class="animation">Meet People</h5>
+                    <p class="animation">We are a company with wide range of experience and experties in our business</p>
+                </div>
+                <div>
+                    <img src="d.png" alt="" class="animation" />
+                    <h5 class="animation">Services at door</h5>
+                    <p class="animation">We are a company with wide range of experience and experties in our business</p>
+                </div>
+            </div>
+            </div>
+            
+            <div class="form1">
+              <div class="flex4">
+                  <!--<div>-->
+                  <p>---FREE CONSULTATION---</p>
+                  <p>Get a free quote</p>
+                  <!--</div>-->
+                  
+                 <div>
+                  <input type="text" placeholder="name"/>
+                  <input type="number" placeholder="phoneNumber"/>
+                 </div>
+                 
+                 <div>
+                  <input type="email" placeholder="email"/>
+                  <input type="text" placeholder="services"/>
+                 </div>
+                 
+                 <textarea name="" id= rows="8" cols="40"></textarea>
+                 <div>
+                     <button>Get Quote</button>
+                 </div>
+                 
+              </div>
+              <div class="flex5">
+                  <img src="2.png" alt=""/>
+              </div>
+            </div>
+            
+            <div class="section2">
+                <p class="animation">--OUR QUANTITY--</p>
+                <p class="w3-center animation">Our Latest Projects</p>
+             
+            <div class="plain">   
+                <a class="animation">All</a>
+                    <a href="#" class="animation">Ceiling%Flooring</a>
+                    <a href="#" class="animation">Exterior design</a>
+                    <a href="#" class="animation">Kitchen modeling</a>
+            </div>  
+                
+                <div class="flex7">
+                        <img src="16.jpeg" alt="" class="animation" />
+                        <img src="17.jpeg" alt="" class="animation" />
+                        <img src="18.jpeg" alt="" class="animation" />
+                </div>
+                
+                <div class="flex7">
+                        <img src="19.jpeg" alt="" class="animation" />
+                        <img src="20.jpeg" alt="" class="animation" />
+                        <img src="21.jpeg" alt="" class="animation" />
+                </div>
+            </div>
+            
+            <div class="section3">
+                <p class="animation">--OUR WOOD--</p>
+                <p class="animation">Our Latest News</p>
+            <div class="flex9">
+                <div>
+                    <img src="a.png" alt="" class="animation" />
+                        <p class="animation">Good funiture is now</p>
+                        <p class="animation">We are a company with wide range of experience and experties in our busines</p>
+                    </div>
+                    <div>
+                        <img src="b.png" alt="" class="animation" />
+                        <p class="animation">Wood worker turned furor</p>
+                        <p class="animation">We are a company with wide range of experience and experties in our busines</p>
+                    </div>
+                    <div>
+                        <img src="c.png" alt="" class="animation" />
+                        <p class="animation">Good is now on percale</p>
+                        <p class="animation">We are a company with wide range of experience and experties in our busines</p>
+                    </div>
+                </div>
+            </div>  
+            
+            <div class="section4">
+                <p class="animation">--OUR CLIENT--</p>
+                <p class="animation">Our Happy Brands</p>
+            <div class="flex10">
+                    <img src="logo1.png" alt="" class="animation" />
+                        <img src="logo2.png" alt="" class="animation" />
+                        <img src="logo3.png" alt="" class="animation" />
+                        <img src="logo4.png" alt="" class="animation" />
+                        <img src="logo5.png" alt="" class="animation" />
+                </div>
+                 
+                </div>
+            
+            <div class="section5">
+                <div class="image6">
+                    <h4>About Us</h4>
+                    <p>We are a company with wide range of services</p>
+                    <img src="4.png" alt="" />
+                    <img src="5.png" alt="" />
+                    <img src="6.png" alt="" />
+                    <img src="4.png" alt="" />
+                </div>
+                <div class="image4">
+                    <h4>Contact Info</h4>
+                    <div><img src="3.png" alt="" /><p>No1 Abas funiture, Okwe</p></div>
+                    <div><img src="contact.png" alt="" /><p>07076892722</p></div>
+                    <p>Www.AbasFuniture.com</p>
+                    <p style="margin-top:3px;">www.AbasFuniture@gmail.com</p>
+                </div>
+                <div class="image5">
+                    <h4>Get Free Estimate</h4>
+                    <p>+2349086855867</p>
+                    <p>safe payment</p>
+                    <button>RequestForm</button>
+                </div>
+            </div>
+            
+            <div class="footer">
+                <!--<footer>-->
+                    <label>copyright &copy 2021 AbasFuniture.</label>
+                <!--</footer>-->
+                <div class="anchor">
+                    <a href="#">Chat</a>
+                    <a href="#">Checkout</a>
+                    <a href="#">MyAccount</a>
+                 </div>
+                </div>
+        </section>
+        
+        <script src="wooden.js" type="text/javascript" charset="utf-8"></script>
+    </body>
+</html>
